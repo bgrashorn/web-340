@@ -31,6 +31,7 @@ class BookStore {
         console.log('\n  -- DISPLAYING AVAILABLE BOOKS --');
         for (let book of this.books) {
             let currentBook = book;
+            console.log(book);
         }
     }
 }
